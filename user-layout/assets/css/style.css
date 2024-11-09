@@ -2426,39 +2426,39 @@ fieldset:disabled a.btn {
 
 .btn-success {
   color: #fff;
-  background-color: #28a745;
-  border-color: #28a745;
+  background-color: #007bff; /* Blue color */
+  border-color: #007bff; /* Blue border */
 }
 
 .btn-success:hover {
   color: #fff;
-  background-color: #218838;
-  border-color: #1e7e34;
+  background-color: #0056b3; /* Darker blue for hover */
+  border-color: #004085; /* Darker blue border on hover */
 }
 
 .btn-success:focus, .btn-success.focus {
   color: #fff;
-  background-color: #218838;
-  border-color: #1e7e34;
-  box-shadow: 0 0 0 0 rgba(72, 180, 97, 0.5);
+  background-color: #0056b3; /* Darker blue on focus */
+  border-color: #004085; /* Darker blue border on focus */
+  box-shadow: 0 0 0 0 rgba(38, 143, 255, 0.5); /* Light blue shadow on focus */
 }
 
 .btn-success.disabled, .btn-success:disabled {
   color: #fff;
-  background-color: #28a745;
-  border-color: #28a745;
+  background-color: #007bff; /* Blue color for disabled state */
+  border-color: #007bff; /* Blue border for disabled state */
 }
 
 .btn-success:not(:disabled):not(.disabled):active, .btn-success:not(:disabled):not(.disabled).active,
 .show > .btn-success.dropdown-toggle {
   color: #fff;
-  background-color: #1e7e34;
-  border-color: #1c7430;
+  background-color: #004085; /* Even darker blue when active */
+  border-color: #003366; /* Dark blue border when active */
 }
 
 .btn-success:not(:disabled):not(.disabled):active:focus, .btn-success:not(:disabled):not(.disabled).active:focus,
 .show > .btn-success.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0 rgba(72, 180, 97, 0.5);
+  box-shadow: 0 0 0 0 rgba(38, 143, 255, 0.5); /* Light blue shadow on active focus */
 }
 
 .btn-info {
